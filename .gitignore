@@ -1,0 +1,59 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.lock
+*.log
+
+# Node / JavaScript
+/node_modules/
+npm-debug.log*
+yarn-error.log
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+*.egg
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+out/
+
+# .NET
+/bin/
+/obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.vs/
+
+# Environment / secrets
+.env
+*.env
+.env.*.local
+
+# IDE / editor folders
+.vscode/
+.idea/
+*.iml
+
+# Others – general
+coverage/
+*.cache
+tmp/
+temp/
+logs/
