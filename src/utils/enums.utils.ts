@@ -24,3 +24,19 @@ export const HttpStatusCodes = {
 
 export type HttpStatusCodes =
   (typeof HttpStatusCodes)[keyof typeof HttpStatusCodes];
+
+type ValueOf<T> = T[keyof T];
+
+// ─── User ──────────────────────────────────────────────────────
+export const UserRoles = {
+  GUEST: "guest",
+  USER: "user",
+  ADMIN: "admin",
+} as const;
+export type UserRoles = (typeof UserRoles)[keyof typeof UserRoles];
+
+export const UserStatus = {
+  ACTIVE: "active",
+  INACTIVE: "inactive",
+} as const;
+export type UserStatus = (typeof UserStatus)[keyof typeof UserStatus];
